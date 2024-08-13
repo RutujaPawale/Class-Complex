@@ -22,3 +22,15 @@ ostream & operator << (ostream &, const Complex & d){
 cout << d.real << " + " << d.img << "i" << endl;
 return cout;
 }
+Complex Complex::operator + (Complex c1){   // Overloading + operator
+Complex temp;
+temp.real = real + c1.real;
+temp.img = img + c1.img;
+return temp;
+}
+Complex Complex::operator * (Complex c2){   // Overloading * Operator
+Complex tmp;
+tmp.real = real * c2.real - img * c2.img;
+tmp.img = real * c2.img + img * c2.real;
+return tmp;
+}
