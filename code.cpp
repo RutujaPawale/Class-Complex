@@ -55,3 +55,15 @@ int a;
 cout << "Enter your choice from above MENU (1 to 3) : ";
 cin >> a;
 if (a == 1){
+C3 = C1+C2;
+cout << "Addition : " << C3 << endl;
+cout << "Do you wan to perform another operation (y/n) : \n";
+cin >> b;
+if (b == 'y' | | b == 'Y'){
+f=1;
+}
+else{
+cout << "Thanks for using this program!!\n";
+flag=0;
+f=0;
+}
