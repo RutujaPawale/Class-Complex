@@ -45,3 +45,13 @@ cout << "Enter Real and Imaginary part of the Complex Number 2 : \n";
 cin >> C2;
 int f = 1;
 while (f == 1){
+cout << "Complex Number 1 : " << C1 << endl;
+cout << "Complex Number 2 : " << C2 << endl;
+cout << "**********MENU**********" << endl;
+cout << "1. Addition of Complex Numbers" << endl;
+cout << "2. Multiplication of Complex Numbers" << endl;
+cout << "3. Exit\n";
+int a;
+cout << "Enter your choice from above MENU (1 to 3) : ";
+cin >> a;
+if (a == 1){
