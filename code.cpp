@@ -82,3 +82,12 @@ flag=0;
 f=0;
 }
 }
+else{ 
+cout << "Thanks for using this program!!\n";
+flag=0;
+f=0;
+}
+}
+}
+return 0;
+}
