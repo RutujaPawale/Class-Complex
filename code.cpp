@@ -67,3 +67,12 @@ cout << "Thanks for using this program!!\n";
 flag=0;
 f=0;
 }
+}
+else if (a == 2){
+C4 = C1 * C2;
+cout << "Multiplication : " << C4 << endl;
+cout << "Do you wan to perform another operation (y/n) : \n";
+cin >> b;
+if (b == 'y' | | b == 'Y'){
+f=1;
+}
