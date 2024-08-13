@@ -34,3 +34,8 @@ tmp.real = real * c2.real - img * c2.img;
 tmp.img = real * c2.img + img * c2.real;
 return tmp;
 }
+int main(){
+Complex C1, C2, C3, C4;
+int flag = 1;
+char b;
+while (flag == 1){
