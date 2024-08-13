@@ -39,3 +39,9 @@ Complex C1, C2, C3, C4;
 int flag = 1;
 char b;
 while (flag == 1){
+cout << "Enter Real and Imaginary part of the Complex Number 1 : \n";
+cin >> C1;
+cout << "Enter Real and Imaginary part of the Complex Number 2 : \n";
+cin >> C2;
+int f = 1;
+while (f == 1){
