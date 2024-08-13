@@ -76,3 +76,9 @@ cin >> b;
 if (b == 'y' | | b == 'Y'){
 f=1;
 }
+else{
+cout << "Thanks for using this program!!\n";
+flag=0;
+f=0;
+}
+}
